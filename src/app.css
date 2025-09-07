@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@plugin "daisyui" {
+	themes: pastel --default;
+}
+@plugin "daisyui/theme" {
+	name: 'pastel';
+	default: true;
+	/* border radius */
+	--radius-selector: 1rem;
+	--radius-field: 0.75rem;
+	--radius-box: 0.5rem;
+}
