@@ -12,7 +12,7 @@ x = 20; y = 10
 </script>
 
 <h1 class="text-3xl font-bold">Rui</h1>
-<p class="font-medium">A naive state based syntax language</p>
+<p class="font-medium">A naive state based stacked language</p>
 
 <main class="mt-5 space-y-8">
 	<form method="post" action="?/compile-code" bind:this={formRef} use:enhance>
